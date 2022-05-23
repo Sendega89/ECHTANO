@@ -1,7 +1,7 @@
-import s from "./Content.module.css";
+import "./Content.css";
 
 const Content = () => {
-    return <div className={s.content__container}>
+    return <div className={"content__container"}>
         Content Component
     </div>
 }

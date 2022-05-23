@@ -1,7 +1,7 @@
-import s from "./Footer.module.css"
+import  "./Footer.css"
 
 const Footer = ()=> {
-    return <div className={s.footer__container}>
+    return <div className={"footer__container"}>
         Footer component
     </div>
 }

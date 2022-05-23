@@ -1,0 +1,7 @@
+.header__container {
+    max-width: 1160px;
+    margin:0 auto;
+    border: 1px solid black;
+}
+a,a:visited{text-decoration: none;}
+ul li{list-style: none;}
