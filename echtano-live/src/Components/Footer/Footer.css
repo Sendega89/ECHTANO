@@ -1,7 +1,15 @@
 .footer__container {
-    max-width: 1160px;
-    margin:0 auto;
-    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:60px auto;
+}
+.legalInformation {
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px
 }
 
 

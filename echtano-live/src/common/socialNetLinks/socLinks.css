@@ -1,0 +1,8 @@
+.actions__publicLinks {
+    display: inline-flex;
+    gap:8px;
+}
+.header__actions .publicLinks__items img  {
+    width: 40px;
+    height: 40px;
+}

@@ -1,7 +1,71 @@
 .header__container {
-    max-width: 1160px;
-    margin:0 auto;
-    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    margin: 28px auto;
+    align-items: center;
 }
-a,a:visited{text-decoration: none;}
-ul li{list-style: none;}
+/*------------------------------*/
+.header__logo{
+margin-right: 47px;
+}
+.header__menu {
+    margin-right: 47px;
+}
+.header__actions {
+    display: flex;
+    gap: 12px;
+}
+/*--------------------------------*/
+.actions__buttons {
+    display: inline-flex;
+    gap: 12px;
+}
+.menu__list {
+    display: flex;
+    gap:48px;
+}
+.buttons__item  {
+    padding:9px 28px 11px 29px;
+    color: white;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    width: 100px;
+    height: 40px;
+    border: 1px solid #FFFFFF;
+    border-radius: 100px;
+}
+.menu__list a  {
+    color: black;
+}
+.menu__link:hover {
+    border-bottom: 1px solid black;
+
+}
+.buttons__item:hover {
+    color: black;
+    background-color: rgba(205, 249, 244, 0.76);
+}
+
+/* This is breakpoint for PC */
+@media (max-width: 1087px) {
+    [class*="__container"] {
+        max-width: 970px;
+    }
+}
+/* This is breakpoint for Tablet */
+@media (max-width: 991.98px) {
+    [class*="__container"] {
+        max-width: 750px;
+    }
+    .header__container .logoText {
+        display: none;
+    }
+    .header__container .actions__publicLinks {
+        display: none;
+    }
+}
+@media (max-width: 774.98px) {
+    [class*="__container"] {
+    }
+}
