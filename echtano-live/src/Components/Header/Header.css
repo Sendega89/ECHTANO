@@ -35,11 +35,11 @@ margin-right: 47px;
     border: 1px solid #FFFFFF;
     border-radius: 100px;
 }
-.menu__list a  {
+.navbar-dark .navbar-nav .nav-link {
     color: black;
 }
 .menu__link:hover {
-    border-bottom: 1px solid black;
+    text-decoration: underline;
 
 }
 .buttons__item:hover {
@@ -53,19 +53,10 @@ margin-right: 47px;
         max-width: 970px;
     }
 }
+.menu__item.nav-link {
+    font-family: "Aeonik";
+    color: #000000!important;
+}
 /* This is breakpoint for Tablet */
-@media (max-width: 991.98px) {
-    [class*="__container"] {
-        max-width: 750px;
-    }
-    .header__container .logoText {
-        display: none;
-    }
-    .header__container .actions__publicLinks {
-        display: none;
-    }
-}
-@media (max-width: 774.98px) {
-    [class*="__container"] {
-    }
-}
+
+
